@@ -1,0 +1,13 @@
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{margin:0; padding:0;}
+li{list-style:none;}
+body{font-size:12px; font-family:Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif; margin:0; color:#888; background:#fff; overflow-x: hidden;}
+h1,h2,h3,h4,h5,h6,b,strong{font-size:1em; font-weight:normal;}
+/*将h1-h6所有标签内的字体设为1个字符大小，即body中规定的字体大小。这样各标签的字体就都一样大了，都是1个字符大小，后面需要多大时再具体设置。*/
+i,em{font-style:normal;}
+a{text-decoration:none; color:#000;}/*a标签统一设成了黑色，后面具体什么颜色再单独设置*/
+input,textarea,select,a{outline:none;}/*按tab键选中超链接时会出现轮廓线。tab选中下一个超链接，shift+tab选中上一个超链接*/
+
+.clearfix:after{content:''; display:block; clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
